@@ -1,7 +1,11 @@
+##Obs: CÃ³digo feito por: Felix Neto, Gutemberg, Robson MÃ¼ller, Daniel Candido.
+
+
+
 endereco_do_arqlogin = "C:\\Users\\berg\\Desktop\\temp\\login.txt"
 endereco_do_arq_cad_func = "C:\\Users\\berg\\Desktop\\temp\\cadastro_funcionarios.txt"
-separador1 = "«"
-separador2 = "»"
+separador1 = "Â«"
+separador2 = "Â»"
 
 arqlogin=open(endereco_do_arqlogin,"r")
 
@@ -13,7 +17,7 @@ passa = 0
 # Efetuando login no Sistema
 if passa == 0:
     while (passa == 0) and (tentativas < 3):
-        verificar_usuario = raw_input("Digite o seu nome de usuário: ")
+        verificar_usuario = raw_input("Digite o seu nome de usuÃ¡rio: ")
         verificar_senha = raw_input("Digite sua senha: ")
         tentativas += 1
         # Pesquisando por usuarios e suas respectivas senhas (no arquivo)
@@ -24,7 +28,7 @@ if passa == 0:
             senha = u[divisor1 + 1 : divisor2]
             #print usuario, senha
 
-            # Verificação de senha do usuario
+            # VerificaÃ§Ã£o de senha do usuario
             if (verificar_usuario == usuario) and (verificar_senha == senha):
                 passa = 1        
                 tipo = u[divisor2 + 1 : -1]
@@ -34,17 +38,17 @@ if passa == 0:
                 break
 
         if passa == 0:
-            print "Usuário e/ou senha inválido(s).\n"
+            print "UsuÃ¡rio e/ou senha invÃ¡lido(s).\n"
 
     if (passa == 1):
         if (tipo == 'g') or (tipo == 'a'):
             print "\n>>> Login efetuado com sucesso!"
         else:
-            print "\n>>> Login não foi efetuado. Reinicie o sistema."
+            print "\n>>> Login nÃ£o foi efetuado. Reinicie o sistema."
 
-    # Encerramento do sistema após 3 tentativas de login mal sucedidas
+    # Encerramento do sistema apÃ³s 3 tentativas de login mal sucedidas
     if (tentativas >= 3) and (passa == 0):
-        print "São permitidas apenas 3 (três) tentativas. O sistema deve ser encerrado!"
+        print "SÃ£o permitidas apenas 3 (trÃªs) tentativas. O sistema deve ser encerrado!"
 
 arqlogin.close()
 
@@ -60,43 +64,43 @@ if passa == 1:
         dois_pontos = t.find(":")
 #        print dois_pontos
 
-    # Tipo de funcionário (Logado): Gerente
+    # Tipo de funcionÃ¡rio (Logado): Gerente
     if tipo == 'g':
-        print ">>> Você está logado como 'Gerente'."
+        print ">>> VocÃª estÃ¡ logado como 'Gerente'."
 
         fica = 1
-        # Condição de encerramento do Sistema
+        # CondiÃ§Ã£o de encerramento do Sistema
         while fica == 1:
 
-            atividade = input("\n> O que deseja executar agora?\n\n1 - Cadastrar Funcionário\n2 - Atualizar Cadastro de Funcionário\n3 - Remover Cadastro de Funcionário\n4 - Cadastrar Cliente\n5 - Atualizar Cadastro de Cliente\n6 - Remover Cadastro de Cliente\n7 - Cadastrar Filme no Acervo\n8 - Atualizar Cadastro de Filme no Acervo\n9 - Excluir Filme do Acervo\n10 - Pesquisar Acervo\n11 - Reservar Filme\n12 - Efetuar Locação\n13 - Efetuar Devolução\n14 - etc e tal\n15 - Sair\n> ")
+            atividade = input("\n> O que deseja executar agora?\n\n1 - Cadastrar FuncionÃ¡rio\n2 - Atualizar Cadastro de FuncionÃ¡rio\n3 - Remover Cadastro de FuncionÃ¡rio\n4 - Cadastrar Cliente\n5 - Atualizar Cadastro de Cliente\n6 - Remover Cadastro de Cliente\n7 - Cadastrar Filme no Acervo\n8 - Atualizar Cadastro de Filme no Acervo\n9 - Excluir Filme do Acervo\n10 - Pesquisar Acervo\n11 - Reservar Filme\n12 - Efetuar LocaÃ§Ã£o\n13 - Efetuar DevoluÃ§Ã£o\n14 - etc e tal\n15 - Sair\n> ")
             usuario_modificador = usuario_logado
-            # Cadastrar Funcionário
+            # Cadastrar FuncionÃ¡rio
             if atividade == 1:
                 usuario_modificador = usuario_logado
-                nome = raw_input("Informe o nome do funcionário a ser cadastrado*: ")
-                cpf = raw_input("Infome o CPF(Apenas os números)*: ")
-                rg = raw_input("Informe o RG (Apenas números): ")
+                nome = raw_input("Informe o nome do funcionÃ¡rio a ser cadastrado*: ")
+                cpf = raw_input("Infome o CPF(Apenas os nÃºmeros)*: ")
+                rg = raw_input("Informe o RG (Apenas nÃºmeros): ")
                 endereco = raw_input("Informe o endereco*: ")
-                numero = raw_input("Informe o número da residência: ")
+                numero = raw_input("Informe o nÃºmero da residÃªncia: ")
                 complemento = raw_input("Informe o complemento (se houver): ")
                 bairro = raw_input("Informe o Bairro: ")
-                cep = raw_input("Informe o CEP(somente números)*: ")
+                cep = raw_input("Informe o CEP(somente nÃºmeros)*: ")
                 cidade = raw_input("Informe a Cidade*: ")
                 estado = raw_input("informe o Estado*: ")
                 tel = raw_input("Informe o Tel: ")
                 cel = raw_input ("Informe o Cel: ")
-                n_carteira = raw_input("Informe o número da carteira de trabalho: ")
-                admissao = raw_input('Informe a Data de Admissão (formato DD/MM/AAAA): ')
-                login_usuario = raw_input("Digite o nome de Login de usuário deste sistema: ")
-                senha_usuario = raw_input("Digite a senha de acesso ao sistema, deste usuário: ")
+                n_carteira = raw_input("Informe o nÃºmero da carteira de trabalho: ")
+                admissao = raw_input('Informe a Data de AdmissÃ£o (formato DD/MM/AAAA): ')
+                login_usuario = raw_input("Digite o nome de Login de usuÃ¡rio deste sistema: ")
+                senha_usuario = raw_input("Digite a senha de acesso ao sistema, deste usuÃ¡rio: ")
 
-                tipo_func = raw_input("Informe a função (Digite 'g' para 'Gerente' ou 'a' para 'Atendente'): ")
+                tipo_func = raw_input("Informe a funÃ§Ã£o (Digite 'g' para 'Gerente' ou 'a' para 'Atendente'): ")
                 while (tipo_func != 'g') and (tipo_func != 'a'):
-                    tipo_func = raw_input("\nInformação digitada incorretamente.\nInforme a função (Digite 'g' para 'Gerente' ou 'a' para 'Atendente'): ")
+                    tipo_func = raw_input("\nInformaÃ§Ã£o digitada incorretamente.\nInforme a funÃ§Ã£o (Digite 'g' para 'Gerente' ou 'a' para 'Atendente'): ")
                     tipo_func = tipo_func.lower()
 
                 dic_func[cpf] = nome, rg, endereco, numero, complemento, bairro, cep, cidade, estado, tel, cel, n_carteira, admissao, usuario_modificador
-                lista_dic_f = ['Nome:','RG:','Endereço:', 'Número: ', 'Complemento: ', 'Bairro: ','CEP:','Cidade:','Estado:','Telefone:','Celular:','Carteira Profissional:','Data de Admissao: ']
+                lista_dic_f = ['Nome:','RG:','EndereÃ§o:', 'NÃºmero: ', 'Complemento: ', 'Bairro: ','CEP:','Cidade:','Estado:','Telefone:','Celular:','Carteira Profissional:','Data de Admissao: ']
 
                 print "\nCPF:", cpf
                 for a in range(0,len(lista_dic_f)):
@@ -123,9 +127,9 @@ if passa == 1:
                     arq_cad_func.write(chave1+":"+valor1+'\n')
                 arq_cad_func.close()
 
-##             Atualizar cadastro de Funcionário
+##             Atualizar cadastro de FuncionÃ¡rio
             elif atividade == 2:
-                pesquisar_func = raw_input("Pesquise o nome do funcionário que deseja atualizar o cadastro: ")
+                pesquisar_func = raw_input("Pesquise o nome do funcionÃ¡rio que deseja atualizar o cadastro: ")
                 
 
                 arq_cad_func = open(endereco_do_arq_cad_func,'r')
@@ -134,7 +138,7 @@ if passa == 1:
 ##                print linhas
                 arq_cad_func.close()
                 if linhas == []:
-                    print "Não ha funcionário cadastrado"
+                    print "NÃ£o ha funcionÃ¡rio cadastrado"
                     
                 else:
                     google = []
@@ -174,37 +178,37 @@ if passa == 1:
                     if logout == 's':
                         fica = 0
 
-            # Opções não implementadas
+            # OpÃ§Ãµes nÃ£o implementadas
             elif (atividade > 1) and (atividade < 15) and (type(atividade) == int):
-                print "Opção ainda não implementada."
+                print "OpÃ§Ã£o ainda nÃ£o implementada."
 
-            # Quando escolhida uma opção diferente das previstas
+            # Quando escolhida uma opÃ§Ã£o diferente das previstas
             else:
-                print "Opção Inválida."
+                print "OpÃ§Ã£o InvÃ¡lida."
                 
-    # Tipo de Funcionário (Logado): Atendente
+    # Tipo de FuncionÃ¡rio (Logado): Atendente
     elif tipo == 'a':
-        print ">>> Você está logado como 'Atendente'.\n"
+        print ">>> VocÃª estÃ¡ logado como 'Atendente'.\n"
 
         fica = 1
-        #Condição de encerramento do Sistema
+        #CondiÃ§Ã£o de encerramento do Sistema
         while fica == 1:
 
-            atividade = input("\n> O que deseja executar agora?\n\n1 - Cadastrar Cliente\n2 - Atualizar Cadastro de Cliente\n3 - Cadastrar Filme no Acervo\n4 - Atualizar Cadastro de Filme no Acervo\n5 - Pesquisar Acervo\n6 - Reservar Filme\n7 - Efetuar Locação\n8 - Efetuar Devolução\n9 - etc e tal\n10 - Sair\n> ")
+            atividade = input("\n> O que deseja executar agora?\n\n1 - Cadastrar Cliente\n2 - Atualizar Cadastro de Cliente\n3 - Cadastrar Filme no Acervo\n4 - Atualizar Cadastro de Filme no Acervo\n5 - Pesquisar Acervo\n6 - Reservar Filme\n7 - Efetuar LocaÃ§Ã£o\n8 - Efetuar DevoluÃ§Ã£o\n9 - etc e tal\n10 - Sair\n> ")
 
             # Cadastrar Cliente
             if atividade == 1:
                 usuario_modificador = usuario_logado
                 nome = raw_input("Informe o nome do Cliente a ser cadastrado*: ")
-                cpf = input("Infome o cpf(Apenas os números)*: ")
+                cpf = input("Infome o cpf(Apenas os nÃºmeros)*: ")
                 endereco = raw_input("Informe o endereco*: ")
-                cep = input("Informe o CEP(somente números): ")
+                cep = input("Informe o CEP(somente nÃºmeros): ")
                 cidade = raw_input("Informe a Cidade*: ")
                 estado = raw_input("informe o Estado*: ")
                 tel = input("Informe o Telefone Fixo: ")
                 cel = input ("Informe o Telefone Celular: ")
                 print '\nCliente Cadastrado com Sucesso!'
-                print '(Ainda não foi implementada a ADIÇÃO a arquivo do cadastro de clientes.)'
+                print '(Ainda nÃ£o foi implementada a ADIÃ‡ÃƒO a arquivo do cadastro de clientes.)'
 
             elif atividade == 10:
                 logout = ''
@@ -215,10 +219,10 @@ if passa == 1:
                         fica = 0
 
             elif (atividade > 1) and (atividade < 10) and (type(atividade) == int):
-                print "Opção ainda não implementada."
+                print "OpÃ§Ã£o ainda nÃ£o implementada."
 
             else:
-                print "Opção Inválida."
+                print "OpÃ§Ã£o InvÃ¡lida."
 
 
 print google
