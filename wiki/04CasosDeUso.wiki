@@ -1,7 +1,7 @@
 http://img856.imageshack.us/img856/3487/uc002locadora.png
 
 =UC0001 - Acervo de Filmes=
-<table border="1" cellspacing="3" cellpadding="3" width="595">
+<table border="1" cellspacing="5" cellpadding="5" width="595">
 <tr> 
 <td width=20%> *Objetivos* </td> 
 <td width=80%> Cadastrar, remover e alterar filmes que o estabelecimento possui. </td> 
@@ -29,7 +29,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </table>
 
 ==Cenários principais de Sucesso:==
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=2>*Cadastro de DVD*</td>
 <td width=600>1. Gerente comprar um novo DVD;</td></tr>
@@ -37,7 +37,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=4>*Exclusão de DVD*</td>
 <td width=600>1. O Funcionário informa o título do DVD ou número de cadastro a ser procurado no sistema;</td></tr>
@@ -49,7 +49,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=3>*Alteração de dados*</td>
 <td width=600>1. O Funcionário informa o título do DVD ou número de cadastro a ser procurado no sistema;</td></tr>
@@ -59,7 +59,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=2>*Consulta *</td>
 <td width=600>1. O Funcionário informa o título do DVD ou número de cadastro a ser procurado no sistema;</td></tr>
@@ -71,13 +71,13 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 
 *A1.* Erro ao salvar o cadastro no sistema: uma mensagem de erro é exibida, e o sistema retorna ao passo 1;
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Exclusão de DVD*</td>
 <td width=600>1. Cliente visualiza os DVD´s que estão cadastrados e disponíveis no sistema para locação;</td></tr>
 </table>
 
-<table border="1" cellspacing="2" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=3>*Alteração de dados*</td>
 <td width=600>A1. DVD não encontrado, retorna ao passo 1;</td></tr>
@@ -85,7 +85,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Consulta *</td>
 <td width=600>A1. DVD não encontrado, retorna ao passo 1;</td></tr>
@@ -95,7 +95,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 ----
 
 =UC0002 - Cadastro de Clientes=
-<table border="1" cellspacing="3" cellpadding="3" width="595">
+<table border="1" cellspacing="5" cellpadding="5" width="595">
 <tr> 
 <td width=20%> *Objetivos* </td> 
 <td width=80%> Cadastrar, alterar, remover e alterar dados de clientes. </td> 
@@ -123,7 +123,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </table>
 
 ==Cenários principais de Sucesso:==
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=3>*Cadastro de Cliente*</td>
 <td width=600>1. O Cliente informa seus dados pessoais para a realização do cadastro;</td></tr>
@@ -133,7 +133,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=4>*Exclusão de Cadastro*</td>
 <td width=600>1. O Funcionário informa o nome do cliente ou numero de cadastro a ser procurado no sistema;</td></tr>
@@ -145,7 +145,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=3>*Alteração de dados*</td>
 <td width=600>1. O Funcionário informa o nome do cliente a ser procurado no sistema;</td></tr>
@@ -155,7 +155,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=2>*Consulta *</td>
 <td width=600>1. O Funcionário informa o nome do cliente ou número de cadastro a ser procurado;</td></tr>
@@ -165,19 +165,19 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 
 ===Fluxos alternativos:===
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Cadastro de Cliente*</td>
 <td width=600>A1. Erro ao salvar o cadastro no sistema: uma mensagem de erro é exibida, retornando ao passo 2 para continuação do cadastro.</td></tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Exclusão de Cadastro*</td>
 <td width=600>A1. Cadastro não encontrado, retorna ao passo 1;</td></tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=2>*Alteração de Cadastro*</td>
 <td width=600>A1. Cadastro não encontrado, retorna ao passo 1;</td></tr>
@@ -185,7 +185,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Consulta *</td>
 <td width=600>A1. DVD não encontrado, retorna ao passo 1;</td></tr>
@@ -195,7 +195,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 ----
 
 =UC0003 - Funcionários=
-<table border="1" cellspacing="3" cellpadding="3" width="595">
+<table border="1" cellspacing="5" cellpadding="5" width="595">
 <tr> 
 <td width=20%> *Objetivos* </td> 
 <td width=80%> Fazer cadastro dos funcionários. </td> 
@@ -223,7 +223,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </table>
 
 ==Cenários principais de Sucesso:==
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=3>*Cadastro de Funcionário*</td>
 <td width=600>1. O novo Funcionário informa seus dados pessoais para a realização do cadastro;</td></tr>
@@ -233,7 +233,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=4>*Exclusão de Cadastro*</td>
 <td width=600>1. O Gerente informa o nome do funcionário a ser procurado no sistema;</td></tr>
@@ -245,7 +245,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=3>*Alteração de Cadastro*</td>
 <td width=600>1. O Gerente informa o nome do funcionário a ser procurado na base de dados;</td></tr>
@@ -255,7 +255,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=2>*Consulta *</td>
 <td width=600>1. O Gerente informa o nome do funcionário a ser procurado;</td></tr>
@@ -265,19 +265,19 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 
 ===Fluxos alternativos:===
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Cadastro de Funcionário*</td>
 <td width=600>A1. Erro ao salvar o cadastro: uma mensagem de erro é exibida, retornando ao passo 2 para continuação do cadastro.</td></tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Exclusão de Cadastro*</td>
 <td width=600>A1. Cadastro não encontrado, retorna ao passo 1.</td></tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=2>*Alteração de Cadastro*</td>
 <td width=600>A1. Cadastro não encontrado, retorna ao passo 1;</td></tr>
@@ -285,7 +285,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Consulta de Funcionário*</td>
 <td width=600>A1. Cadastro não encontrado, retorna ao passo 1.</td></tr>
@@ -295,7 +295,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 ----
 
 =UC0004 - Locação de DVD=
-<table border="1" cellspacing="3" cellpadding="3" width="595">
+<table border="1" cellspacing="5" cellpadding="5" width="595">
 <tr> 
 <td width=20%> *Objetivos* </td> 
 <td width=80%> Locar, Reservar e Devolver DVD's. </td> 
@@ -323,7 +323,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </table>
 
 ==Cenários principais de Sucesso:==
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=4>*Locação de DVD*</td>
 <td width=600>1. Cliente visualiza os DVD´s que estão cadastrados e disponíveis no sistema para locação;</td></tr>
@@ -335,7 +335,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=5>*Reserva de DVD*</td>
 <td width=600>1. Funcionário visualiza os DVD´s que estão cadastrados no sistema para locação;</td></tr>
@@ -349,7 +349,7 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 </tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=4>*Devolução de DVD*</td>
 <td width=600>1. O Funcionário informa o código da locação dentro do sistema;</td></tr>
@@ -363,19 +363,19 @@ http://img856.imageshack.us/img856/3487/uc002locadora.png
 
 ===Fluxos alternativos:===
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Locação de DVD*</td>
 <td width=600>A1. Erro ao salvar o cadastro no sistema: uma mensagem de erro é exibida, retornando ao passo 2.</td></tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Reserva de DVD*</td>
 <td width=600>A1. Erro ao salvar o cadastro no sistema: uma mensagem de erro é exibida, retornando ao passo 2.</td></tr>
 </table>
 
-<table border="1" cellspacing="3" cellpadding="3" width="800">
+<table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=2>*Devolução de DVD*</td>
 <td width=600>A1.Código da locação não encontrado, retorna ao passo 1;</td></tr>
