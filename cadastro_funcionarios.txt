@@ -1,1 +1,0 @@
-12345678901:('Carpina de Bezerros da Petrolandia', '54545', 'Rua C1', '2', 'barraco 02', 'Pepino ', '5252', 'Carpinense', 'PE', '32322424', '99992424', '0033', '01/01/2065', 'Carpina')
