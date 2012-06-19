@@ -298,7 +298,7 @@ http://images.orkut.com/orkut/photos/RAAAAL6N_EG4TSviVRH2jlCw82tiST2m_5fC0C_yiOj
 <table border="1" cellspacing="5" cellpadding="5" width="595">
 <tr> 
 <td width=20%> *Objetivos* </td> 
-<td width=80%> Locar, Reservar e Devolver DVD's. </td> 
+<td width=80%> Locar e Devolver DVD's. </td> 
 </tr> 
 <tr> 
 <td width=20%> *Descrição* </td> 
@@ -337,20 +337,6 @@ http://images.orkut.com/orkut/photos/RAAAAL6N_EG4TSviVRH2jlCw82tiST2m_5fC0C_yiOj
 
 <table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
-<td align=middle width=110 rowspan=5>*Reserva de DVD*</td>
-<td width=600>1. Funcionário visualiza os DVD´s que estão cadastrados no sistema para locação;</td></tr>
-<tr><td width=600>2. Funcionário Preenche formulário de reserva para cliente;</td>
-</tr>
-<tr><td width=600>3. DVD é reservado para cliente, com validade para locação;</td>
-</tr>
-<tr><td width=600>4. DVD selecionado se torna indisponível para locação;</td>
-</tr>
-<tr><td width=600>5. Caso DVD não seja locado até a data de validade, o DVD volta a ser disponível para todos.</td>
-</tr>
-</table>
-
-<table border="1" cellspacing="5" cellpadding="5" width="800">
-<tr> 
 <td align=middle width=110 rowspan=4>*Devolução de DVD*</td>
 <td width=600>1. O Funcionário informa o código da locação dentro do sistema;</td></tr>
 <tr><td width=600>2. Os dados da locação são exibidos;</td>
@@ -366,12 +352,6 @@ http://images.orkut.com/orkut/photos/RAAAAL6N_EG4TSviVRH2jlCw82tiST2m_5fC0C_yiOj
 <table border="1" cellspacing="5" cellpadding="5" width="800">
 <tr> 
 <td align=middle width=110 rowspan=1>*Locação de DVD*</td>
-<td width=600>A1. Erro ao salvar o cadastro no sistema: uma mensagem de erro é exibida, retornando ao passo 2.</td></tr>
-</table>
-
-<table border="1" cellspacing="5" cellpadding="5" width="800">
-<tr> 
-<td align=middle width=110 rowspan=1>*Reserva de DVD*</td>
 <td width=600>A1. Erro ao salvar o cadastro no sistema: uma mensagem de erro é exibida, retornando ao passo 2.</td></tr>
 </table>
 
