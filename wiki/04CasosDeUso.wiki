@@ -206,7 +206,7 @@ http://images.orkut.com/orkut/photos/RAAAAL6N_EG4TSviVRH2jlCw82tiST2m_5fC0C_yiOj
 </tr> 
 <tr> 
 <td width=20%> *Ator* </td> 
-<td width=80%> Funcionário </td> 
+<td width=80%> Gerente </td> 
 </tr> 
 <tr> 
 <td width=20%> *Prioridade* </td> 
