@@ -1,0 +1,3 @@
+# Descrição do Projeto #
+
+Este projeto consiste em um sistema voltado para locação de filmes/DVDs, visando automatizar a quantidade de clientes que encontram-se cadastrados no estabelecimento, assim como também a quantidade de DVDs que o estabelecimento possui, para facilitar o controle de entrada (devolução) e saída (empréstimo)dos DVDs, assim como também gerar uma base de quanto foi o lucro do estabelecimento num determinado período. Para uma maior agilidade, cada cliente deve possuir um cartão com seu número de cadastro

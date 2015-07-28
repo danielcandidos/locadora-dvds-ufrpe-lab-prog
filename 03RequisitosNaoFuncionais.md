@@ -1,0 +1,16 @@
+# Requisitos Não-Funcionais #
+
+---
+
+
+**•	RNF001: Linguagem de programação utilizada**
+
+PYTHON
+
+**•	RNF002: Banco de Dados**
+
+MYSQL
+
+**•	RNF003: Sistemas operacionais compatíveis**
+
+Windows 7, Windows Vista, Windows XP, Linux (Ubuntu).
